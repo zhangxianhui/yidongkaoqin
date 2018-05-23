@@ -1,0 +1,87 @@
+{
+  "data": {
+    "needCheckIn": 1,
+    "needAutoCheckIn": 0,
+    "autoCheckInTimeStart": "2018-05-16T00:00:00+08:00",
+    "autoCheckInTimeEnd": "2018-05-16T09:03:00+08:00",
+    "place": {
+      "lat": 39.113199,
+      "lon": 117.21373,
+      "range": 300,
+      "address": "天津国际贸易中心写字楼B座"
+    },
+    "wifiInfo": {
+      "macAddress": "8c:85:90:56:c8:fa",
+      "wifiName": "minxing4"
+    },
+    "punchInfos": [
+        {
+            "punchTime": "17:31:55",
+            "itemSort": 1,
+            "status": 5,
+            "punchType": 0,
+            "canApproval": 1
+            },
+            {
+            "punchTime": "17:32:20",
+            "itemSort": 1,
+            "status": 1,
+            "punchType": 1,
+            "canApproval": 0
+            },
+            {
+            "punchTime": "17:32:33",
+            "itemSort": 2,
+            "status": 5,
+            "punchType": 0,
+            "canApproval": 1
+            },
+            {
+            "punchTime": "18:38:01",
+            "itemSort": 2,
+            "status": 1,
+            "punchType": 1,
+            "canApproval": 0
+            }
+           
+    
+    ],
+    "items": [
+      {
+        "id": 1,
+        "name": "上午上班",
+        "startTimeName": "上班打卡",
+        "startTime": "09:03:00",
+        "endTimeName": "午休开始",
+        "endTime": "12:00:00",
+        "allowLate": 1,
+        "lateTime": 30,
+        "allowRemind": 0,
+        "remindTime": null,
+        "sort": 1,
+        "scheduleId": 1,
+        "enable": 1
+      },
+      {
+        "id": 2,
+        "name": "下午上班",
+        "startTimeName": "午休结束",
+        "startTime": "14:00:00",
+        "endTimeName": "下班打卡",
+        "endTime": "16:30:00",
+        "allowLate": 1,
+        "lateTime": 30,
+        "allowRemind": 0,
+        "remindTime": null,
+        "sort": 2,
+        "scheduleId": 1,
+        "enable": 1
+      }
+    ],
+    "placeUnlimit": 0,
+    "isRest": 0,
+    "groupName": "中原银行总行6666",
+    "timestamp": 1526459960
+  },
+  "msg": "OK"
+}
